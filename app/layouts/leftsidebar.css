@@ -1,0 +1,18 @@
+.leftsidebar {
+    background-color: red;
+    flex: 0 0 250px;
+    padding: var(--size-3);
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+}
+
+.app-layout {
+    display: grid;
+    grid-template-columns: 1fr 60vw 1fr;
+}
+
+main {
+    height: 100vh;
+}
