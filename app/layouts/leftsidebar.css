@@ -1,18 +1,19 @@
 .leftsidebar {
-    background-color: red;
-    flex: 0 0 250px;
-    padding: var(--size-3);
-    height: 100vh;
-    overflow-y: auto;
-    position: sticky;
-    top: 0;
+
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem rgba(51, 51, 51, .2));
 }
 
 .app-layout {
     display: grid;
     grid-template-columns: 1fr 60vw 1fr;
+    font-family: var(--font-family);
+    height: calc(100vh - 2 * 1rem);
 }
 
-main {
-    height: 100vh;
+.table--name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
