@@ -1,5 +1,5 @@
 .table-layout {
-    height: calc(100vh - 2 * 3rem);
+    height: calc(100vh - 2 * 5rem);
     padding: 2rem;
 }
 
@@ -81,3 +81,40 @@ h1 {
 .table-13 {
     grid-area: 4 / 3 / 5 / 4;
 }
+
+.active-table {
+    background: #444dfc;
+    color: white;
+    font-weight: bold;
+}
+
+.active-items {
+    background: #FCC844;
+    color: #44340b;
+    font-weight: bold;
+}
+
+.drop-shadow {
+    box-shadow: 0px 4px 17px rgb(184, 2, 240);
+}
+
+.legend-list {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2.8rem;
+}
+
+.legend-list li{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+}
+
+.grid div{
+    display: flex;
+    place-items: center;
+    gap: .2rem;
+}
+
